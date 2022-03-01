@@ -320,12 +320,14 @@ CSS DE ÁREAS ESPECÍFICAS
     
 }
 .section-team .slidearea {
-    color: #ffffff;
+    color: #000;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px;
+
 }
 .section-team-area .sliders-pointers {
     margin-top: 30px;
@@ -335,13 +337,45 @@ CSS DE ÁREAS ESPECÍFICAS
     align-items: center;
 }
 .section-team-area .points{
-    width: 15px;
-    height: 15px;
     border: 2px solid #b28756; 
     border-radius: 8px;
     margin: 0 5px 0 5px;
+    height: 15px;
     cursor: pointer;
+    width: 15px;
 }
 .section-team-area .points.active {
+    background-color: #b28756;
+}
+.section-team--avatar {
+    width: 150px;
+    height: auto;
+}
+.section-team--name{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.section-team--role{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #999;
+}
+.section-team--social {
+    /* background-color: #ccc; */
+}
+.section-team--social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 13px;
+    background-color: #ccc;
+    margin-top: 10px;
+}
+.section-team--social a:hover {
     background-color: #b28756;
 }
