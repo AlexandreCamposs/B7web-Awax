@@ -817,6 +817,10 @@ CSS DE ÁREAS ESPECÍFICAS
   .section-aboutus--right img {
     width: 100%;
   }
+  .section-premium .slidearea {
+    display: flex;
+    flex-direction: column;
+  }
   .section-services{
     flex-wrap: wrap;
   }
@@ -847,14 +851,25 @@ CSS DE ÁREAS ESPECÍFICAS
   .section-team--area{
     width: auto;
   }
-  .section-map--info{
-    width: auto;
+  .section-facts {
+    display: flex;
+    flex-direction: column;
+
   }
   .section-map--info--item{
     margin-bottom: 20px;
   }
   .section-map--info-item:last-child{
     margin-bottom: 0;
+  }
+  .section-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer--area{
+    flex-direction: column;
   }
 }
 @media (min-width: 450px) and (max-width: 800px) {
